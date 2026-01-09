@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo img{
+    height: 60px;
+    width: 139px;  
+}
+.btn{
+    background-color: #30B868;
+    border: none;
+    padding: 12px 46px 12px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.btn2{
+    background-color: transparent;
+    padding: 10px 10px 10px 46px;
+    border-radius: 4px;
+    border-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 32px 17px 120px;
+    cursor: pointer;
+}
+.color-green{
+ color: rgba(48, 184, 104, 1);
+}
+.color-white{
+    color: white;
+}
+header{
+    background-color:rgb(255, 255, 255);
+    
+}
+
+nav{
+    
+    height: 92px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 70px;
+ 
+    
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+nav .menu a{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    opacity: 90%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Banner{
+    margin: 0 auto;
+    align-items:center ;
+    text-align: center;
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+  
+}
+#Banner .Banner-content h1{
+
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#Banner .Banner-content p{
+font-size: 18px;
+margin: 0 auto;
+line-height: 24px;
+width: 673px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
