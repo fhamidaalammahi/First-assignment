@@ -45,7 +45,7 @@
 .btn1{
     background-color: #30B868;
     border: none;
-    padding: 12px 46px 12px 12px;
+    padding: 16px 46px 16px 16px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600;
@@ -54,7 +54,7 @@
 }
 .btn2{
     background-color: transparent;
-    padding: 10px 10px 10px 46px;
+    padding: 14px 14px 14px 46px;
     border-radius: 4px;
     border-color: white;
     font-size: 16px;
@@ -63,8 +63,20 @@
     margin: 32px 17px 120px;
     cursor: pointer;
 }
+.btn3{
+    background-color: #30B868;
+    border: none;
+    padding: 16px 46px 16px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 16px;
+    align-items: center;
+}
 .color-green{
- color: rgba(48, 184, 104, 1);
+ color: #30B868;
 }
 .color-white{
     color: white;
@@ -213,8 +225,82 @@ margin-bottom: 16px;
     color:#001931 ;
     margin-bottom: 16px;
     margin-left: 6px;
+    display: flex;
 }
 #Brain .ele{
     display: flex;
     justify-content: space-between;
+}
+
+#ready .ready-content{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 #0000001a;
+
+}
+#ready .ready-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 82px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+#ready .ready-content p{
+font-size: 16px;
+font-weight: 400;
+margin: 0 auto;
+line-height: 24px;
+width: 600px;
+text-align: center;
+color: #627382;
+margin-bottom: 24px;
+}
+#ready .ready-content .p{
+font-size: 16px;
+font-weight: 400;
+margin: 0 auto;
+line-height: 20px;
+text-align: center;
+color: #627382;
+margin-bottom: 80px;
+}
+footer{
+margin-top: 120px;
+background-color: #001931;
+padding: 120px 120px 30px 120px;
+}
+footer .footer-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1000px;
+}
+.footer-container .social{
+max-width: 220px;
+font-size: 20px;
+font-weight: 500px;
+line-height: 28px;
+}
+.footer-container .social h4{
+width: 113px;
+font-size: 20px;
+font-weight: 500px;
+color: white;
+line-height: 28px;
+}
+.footer-container .icon a{
+width: 92px;
+margin-left: 10px;
+
+}
+footer .copyright p{
+color: white;
+display: flex;
+justify-content: center;
+padding: 30px 120px 0 120px;
+}
+.footer-divider{
+  border-top: 1px solid rgba(229, 231, 235, 0.082);
+  margin: 80px 70px 0 80px;
 }
