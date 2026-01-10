@@ -197,7 +197,7 @@ color: rgba(255, 255, 255, 1);
     align-items: center;
 }
 #Brain .Brain-content{
-    width: 670px;
+    width: 620px;
 
 }
 #Brain .Brain-content h3{
@@ -209,9 +209,8 @@ margin-bottom: 16px;
 }
 #Brain .Brain-content h2{
     color: #001931;
-    font-size: 48px;
+    font-size: 44px;
     font-weight: bold;
-    border: 1px solid red;
     margin-bottom: 16px;
 }
 #Brain .Brain-content p{
